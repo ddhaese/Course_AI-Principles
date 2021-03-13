@@ -282,7 +282,7 @@ Figuur 5.1: Schematisch overzicht van het versnijden van een dataset.
 <span id="cb51-3"><a href="manipuleren-van-data.html#cb51-3" aria-hidden="true" tabindex="-1"></a>rode_wijn[, <span class="st">`</span><span class="at">residual sugar</span><span class="st">`</span>] <span class="sc">%&gt;%</span></span>
 <span id="cb51-4"><a href="manipuleren-van-data.html#cb51-4" aria-hidden="true" tabindex="-1"></a>  density <span class="sc">%&gt;%</span></span>
 <span id="cb51-5"><a href="manipuleren-van-data.html#cb51-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span> (<span class="at">main=</span><span class="st">&quot;Residual sugar (g/L)&quot;</span>)</span></code></pre></div>
-<p><img src="_main_files/figure-html/oef-versnijden-1-1.png" width="672" /></p>
+<p><img src="img/gen-oef-versnijden-1-1.png" width="672" /></p>
 <p>Stel dat rode wijn met een suikergehalte boven de 10g/L wordt afgedaan als fruitsap, dan zou je er van uit mogen gaan dat er een aantal uitlopers zijn, zo halen we ze eruit:</p>
 <div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="manipuleren-van-data.html#cb52-1" aria-hidden="true" tabindex="-1"></a>aantal_uitlopers <span class="ot">&lt;-</span> rode_wijn[<span class="st">`</span><span class="at">residual sugar</span><span class="st">`</span> <span class="sc">&gt;</span> <span class="dv">10</span>, .N]</span>
 <span id="cb52-2"><a href="manipuleren-van-data.html#cb52-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -293,7 +293,7 @@ Figuur 5.1: Schematisch overzicht van het versnijden van een dataset.
 <span id="cb52-7"><a href="manipuleren-van-data.html#cb52-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span> (<span class="at">main=</span><span class="st">&quot;Residual sugar (g/L)&quot;</span>,</span>
 <span id="cb52-8"><a href="manipuleren-van-data.html#cb52-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">sub =</span> <span class="fu">paste</span>(<span class="st">&quot;Excluding&quot;</span>, aantal_uitlopers,</span>
 <span id="cb52-9"><a href="manipuleren-van-data.html#cb52-9" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;&#39;outliers&#39; above 10g/L&quot;</span>))</span></code></pre></div>
-<p><img src="_main_files/figure-html/oef-versnijden-2-1.png" width="672" /></p>
+<p><img src="img/gen-oef-versnijden-2-1.png" width="672" /></p>
 </div>
 <div id="booleaans-masker" class="section level3" number="5.1.2">
 <h3><span class="header-section-number">5.1.2</span> Booleaans masker</h3>
@@ -453,8 +453,8 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ddhaese/Course_AI-Principles/05_Data_Manipulatie.Rmd",
-"text": "Bron"
+"link": null,
+"text": null
 },
 "download": null,
 "toc": {

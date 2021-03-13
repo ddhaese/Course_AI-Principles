@@ -767,7 +767,7 @@ Het doel is om de oppervlakte te bepalen van de fellere horizontale lijn (de mes
 <span id="cb11-20"><a href="leren-uit-data.html#cb11-20" aria-hidden="true" tabindex="-1"></a>  load.image <span class="sc">%&gt;%</span></span>
 <span id="cb11-21"><a href="leren-uit-data.html#cb11-21" aria-hidden="true" tabindex="-1"></a>  contrast <span class="sc">%&gt;%</span></span>
 <span id="cb11-22"><a href="leren-uit-data.html#cb11-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(<span class="at">axes =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
-<p><img src="_main_files/figure-html/demo-pca-1.png" width="672" /></p>
+<p><img src="img/gen-demo-pca-1.png" width="672" /></p>
 <p>De code leest als volgt: Laad de afbeelding <code>Microtome_knife_5.0_5.0_0097.JPG</code> en in de <code>contrast</code> functie: zet je het beeld eerst om naar een <code>data.table</code> met de helper-functie <code>img_to_dt</code> (niet getoond). Start daarna de principale componenten analyse op met de ingebakken <code>stats::prcomp</code> functie. Geef hierbij mee dat de drie kleur-kanalen moeten gebruikt wordt om het grootste contrast te vinden. Neem het resultaat van de analyse en neem de eerste component (de combinatie van R, G, en B-waarden die het meeste variantie verklaart) en voer daarmee de omgekeerde bewerking uit met de <code>predict-pca</code> functie. Het resultaat is dat er een iets beter drempel-waarde (eng: <em>threshold</em>) gevonden kan woorden waarme de messnede geïdentificeerd kan worden:</p>
 <div class="figure">
 <img src="img/demo-pca.png" alt="" />
@@ -923,8 +923,8 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ddhaese/Course_AI-Principles/02_Leren_Uit_Data.Rmd",
-"text": "Bron"
+"link": null,
+"text": null
 },
 "download": null,
 "toc": {
