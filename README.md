@@ -1,1 +1,1 @@
-# Course_AI-Principles
+# Course_AI_Principles
